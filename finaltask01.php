@@ -16,7 +16,7 @@
 		}
 
 		//ブラックリストはここで追加、IPアドレスでチェックを行う、ループバックは::1(なぜかv6)
-		$blacklist = array("");
+		$blacklist = array("192.168.2.250");//例として1つ荒らしっぽい書き込みを加えて、排除してみた
 	?>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
