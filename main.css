@@ -1,0 +1,69 @@
+/*
+参考：
+https://saruwakakun.com/html-css/reference/box(design)
+https://qiita.com/mikuhonda/items/9de7c5ef625d7704da2a(form css)
+*/
+
+h1{
+	text-align: center;
+}
+
+/*フォーム*/
+ul li{
+	list-style: none;
+}
+label{
+	margin-right: 10px;
+	width:100px;/*labelが取る幅を大きめに設定することで右のボックスの位置を合わせる*/
+	float:left;
+}
+ul{
+	width: 500px;
+	margin: 0 auto;
+	margin-bottom: 5px;
+}
+li{
+	margin-bottom: 2px;
+}
+input{
+	width:350px;
+}
+textarea{
+	width:350px;
+	height:100px;
+}
+#submit{
+    display: block;
+    margin: 0 auto;
+    width:400px;
+}
+
+
+/*コメントボックス*/
+.box{
+	width:80%;
+	margin-left: 10%;
+	margin-bottom: 10px;
+	background-color: #eeeeee;
+	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);
+}
+
+.title{
+	padding:5px;
+	color:#000000;
+	background-color: #aaaaaa;
+}
+
+.comment{
+	padding:5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color:#000000;
+	font-size: 120%;
+}
+
+.footer{
+	padding:5px;
+	color:#888888;
+	text-align: right;
+}
