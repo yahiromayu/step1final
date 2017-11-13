@@ -1,6 +1,6 @@
 # チームラボオンラインスキルアップPHP
 
-### FUKUYAMA HIROYUKI
+### <div style="text-align: center;">FUKUYAMA HIROYUKI</div>
 
 ## ＊＊＊仕様＊＊＊  
 - 投稿は名前と本文からなる。->名前(name)、本文(comment)  
